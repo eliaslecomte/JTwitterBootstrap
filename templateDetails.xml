@@ -27,11 +27,15 @@
 		<folder>ico</folder>
 	</files>
 	<positions>
+		<position>top-nav</position>
+		<position>header</position>
+		<position>sidebar</position>
+		<position>footer</position>
+
 		<position>breadcrumbs</position>
         <position>left</position>
-        <position>right</position>
-        <position>top</position>
-        <position>footer</position>
+		<position>right</position>
+		<position>top</position>
         <position>debug</position>
 	</positions>
 

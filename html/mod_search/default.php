@@ -10,16 +10,16 @@
 defined('_JEXEC') or die;
 ?>
 
-<form action="<?php echo JRoute::_('index.php');?>" method="post" class="form-search">
+<form action="<?php echo JRoute::_('index.php');?>" method="post" class=".navbar-search">
 	<div class="search-module">
 		<?php
-			$output = '<input name="searchword" id="mod-search-searchword" maxlength="'.$maxlength.'"  class="inputbox'.$moduleclass_sfx.'" type="text" size="'.$width.'" value="'.$text.'"  onblur="if (this.value==\'\') this.value=\''.$text.'\';" onfocus="if (this.value==\''.$text.'\') this.value=\'\';" />';
+			$output = '<input name="searchword" id="mod-search-searchword" maxlength="'.$maxlength.'"  class="search-query" type="text" size="'.$width.'" placeholder="Search" />';
 
 			if ($button) :
 				if ($imagebutton) :
 					$button = ' <input type="image" value="'.$button_text.'" class="button btn'.$moduleclass_sfx.'" src="'.$img.'" onclick="this.form.searchword.focus();"/>';
 				else :
-					$button = ' <input type="submit" value="'.$button_text.'" class="button btn btn-primary'.$moduleclass_sfx.'" onclick="this.form.searchword.focus();"/>';
+					$button = ' <input type="submit" value="'.$button_text.'" class="button btn'.$moduleclass_sfx.'" onclick="this.form.searchword.focus();"/>';
 				endif;
 			endif;
 

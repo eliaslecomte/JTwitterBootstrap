@@ -1,5 +1,9 @@
 /* Add additional stylesheets below
 -------------------------------------------------- */
+.navbar form {
+	margin:5px 0 5px 0;
+}
+
 /*
   Bootstrap's documentation styles
   Special styles for presenting Bootstrap's documentation and examples
