@@ -62,12 +62,19 @@ $app = JFactory::getApplication();
 </header>
 <?php endif; ?>
 
+<?php if(($this->countModules('social'))) : ?>
+<div class="bs-docs-social">
+	<div class="container">
+		<jdoc:include type="modules" name="social" style="none" />
+	</div>
+</div>
+<?php endif; ?>
 	<div class="container">
         <!-- Docs nav
         ================================================== -->
         <div class="row">
             <div class="span3 bs-docs-sidebar">
-                <jdoc:include type="modules" name="header" style="none" />
+                <jdoc:include type="modules" name="sidebar" style="none" />
             </div>
     
         <!-- Content

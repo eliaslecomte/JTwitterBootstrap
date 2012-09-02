@@ -29,6 +29,7 @@
 	<positions>
 		<position>top-nav</position>
 		<position>header</position>
+		<position>social</position>
 		<position>sidebar</position>
 		<position>footer</position>
 
