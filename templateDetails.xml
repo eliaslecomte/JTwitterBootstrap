@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="2.5"
+	type="template"
+	client="site">
+	<name>JTwitterBootstrap</name>
+	<creationDate>01/09/12</creationDate>
+	<author>Elias Lecomte</author>
+	<authorEmail>elias.lecomte@gmail.com</authorEmail>
+	<authorUrl>http://www.createweb.be/</authorUrl>
+	<copyright>Copyright (C) 2012 Createweb.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>0.1</version>
+	<description><![CDATA[
+	<p>JTwitterBootstrap is a starters template that uses Twitter Bootstrap as it's foundation.<p>
+	]]></description>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>admin</folder>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>language</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>php</folder>
+	</files>
+	<positions>
+		<position>breadcrumbs</position>
+        <position>left</position>
+        <position>right</position>
+        <position>top</position>
+        <position>footer</position>
+        <position>debug</position>
+	</positions>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_jtwitterbootstrap.ini</language>
+	</languages>
+	
+</extension>
