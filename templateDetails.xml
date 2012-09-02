@@ -17,19 +17,13 @@
 	]]></description>
 	<files>
 		<filename>component.php</filename>
-		<filename>favicon.ico</filename>
 		<filename>index.php</filename>
-		<filename>params.ini</filename>
 		<filename>templateDetails.xml</filename>
-		<filename>template_preview.png</filename>
-		<filename>template_thumbnail.png</filename>
-		<folder>admin</folder>
 		<folder>css</folder>
-		<folder>html</folder>
 		<folder>language</folder>
-		<folder>images</folder>
+		<folder>img</folder>
 		<folder>js</folder>
-		<folder>php</folder>
+		<folder>ico</folder>
 	</files>
 	<positions>
 		<position>breadcrumbs</position>
