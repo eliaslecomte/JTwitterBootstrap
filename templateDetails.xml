@@ -11,7 +11,7 @@
 	<authorUrl>http://www.createweb.be/</authorUrl>
 	<copyright>Copyright (C) 2012 Createweb.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<version>0.1</version>
+	<version>0.2</version>
 	<description><![CDATA[
 	<p>JTwitterBootstrap is a starters template that uses Twitter Bootstrap as it's foundation.<p>
 	]]></description>
@@ -20,6 +20,7 @@
 		<filename>index.php</filename>
 		<filename>templateDetails.xml</filename>
 		<folder>css</folder>
+		<folder>html</folder>
 		<folder>language</folder>
 		<folder>img</folder>
 		<folder>js</folder>
