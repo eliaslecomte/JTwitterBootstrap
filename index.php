@@ -44,7 +44,7 @@ $app = JFactory::getApplication();
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<a class="brand" href="./index.html"><?php echo htmlspecialchars($app->getCfg('sitename')); ?></a>
+				<a class="brand" href="./index.html">Title</a>
 				<div class="nav-collapse collapse">
 					<jdoc:include type="modules" name="top-nav" style="none" />	
 				</div>
