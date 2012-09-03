@@ -32,24 +32,20 @@
 		<position>social</position>
 		<position>sidebar</position>
 		<position>footer</position>
-
 		<position>breadcrumbs</position>
         <position>left</position>
 		<position>right</position>
 		<position>top</position>
         <position>debug</position>
 	</positions>
-
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.tpl_jtwitterbootstrap.ini</language>
 	</languages>
-	
-	<params>
+	<config>
 		<fields name="params">
-			<fieldset name"analytics">
-				<field name="GoogleAnalyticsId" type="text" default="" label="Google Analytics Id" description="Add your google analytics id!" filter="string" />
+			<fieldset name="analytics">
+				<field name="GoogleAnalyticsId" type="text" default="" label="Google Analytics Id" description="Add your google analytics id!" />
 			</fieldset>
 		</fields>
-	</params>
-	
+	</config>
 </extension>
