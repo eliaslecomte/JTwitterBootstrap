@@ -43,6 +43,11 @@
 	</languages>
 	<config>
 		<fields name="params">
+			<fieldset name="advanced">
+				<field name="SiteTitle" type="text" default="Title" label="Template title" description="This title appears in the black menu on top." />
+			</fieldset>
+		</fields>
+		<fields name="params">
 			<fieldset name="analytics">
 				<field name="GoogleAnalyticsId" type="text" default="" label="Google Analytics Id" description="Add your google analytics id!" />
 			</fieldset>

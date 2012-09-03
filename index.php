@@ -58,7 +58,7 @@ $app = JFactory::getApplication();
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<a class="brand" href="./index.html">Title</a>
+				<a class="brand" href="/"><?php if ($this->params->get('SiteTitle')) { echo $this->params->get('SiteTitle'); } else { echo "Title"; }?></a>
 				<div class="nav-collapse collapse">
 					<jdoc:include type="modules" name="top-nav" style="none" />	
 				</div>
