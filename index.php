@@ -30,7 +30,7 @@ $app = JFactory::getApplication();
 
 		<jdoc:include type="head" />
 
-		<?php if (!empty($this->params->get('GoogleAnalyticsId'))):?>
+		<?php if (isset($this->params->get('GoogleAnalyticsId'))):?>
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', '<?php echo $this->params->get('GoogleAnalyticsId') ?>']);
