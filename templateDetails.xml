@@ -44,4 +44,12 @@
 		<language tag="en-GB">en-GB/en-GB.tpl_jtwitterbootstrap.ini</language>
 	</languages>
 	
+	<params>
+		<fields name="params">
+			<fieldset name"analytics">
+				<field name="GoogleAnalyticsId" type="text" default="" label="Google Analytics Id" description="Add your google analytics id!" filter="string" />
+			</fieldset>
+		</fields>
+	</params>
+	
 </extension>
