@@ -15,6 +15,7 @@ $app = JFactory::getApplication();
         <link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap.css" rel="stylesheet">
         <link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/jtwitterbootstrap.css" rel="stylesheet">
+        <link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/custom.css" rel="stylesheet">
     
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
