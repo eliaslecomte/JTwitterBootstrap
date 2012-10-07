@@ -97,6 +97,14 @@ $app = JFactory::getApplication();
         <div class="span9">
 			<jdoc:include type="component" />
 		</div>
+        
+         <!-- Ads
+        ================================================== -->
+        <?php if(($this->countModules('ads'))) : ?>
+        <div class="span9">
+			<jdoc:include type="modules" name="ads" style="none" />
+		</div>
+        
 	</div>
 
 <!-- Footer
