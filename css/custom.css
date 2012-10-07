@@ -1,0 +1,18 @@
+.bs-docs-sidebar .myF-grayglow-nw, .bs-docs-sidebar .myF-grayglow-n, .bs-docs-sidebar .myF-grayglow-ne, .bs-docs-sidebar .myF-grayglow-w, .bs-docs-sidebar .myF-grayglow-e, .bs-docs-sidebar .myF-grayglow-sw, .bs-docs-sidebar .myF-grayglow-s, .bs-docs-sidebar .myF-grayglow-se {
+	display: none;
+}
+
+.bs-docs-sidebar .myF-grayglow-content {
+	width: 95% !important;
+	height: 95% !important;
+}
+
+@media (min-width: 980px) and (max-width: 1200px) {
+	.search-module input {
+		width: 35px;
+	}
+}
+
+.tijdschriftje {
+	margin:5px;
+}
