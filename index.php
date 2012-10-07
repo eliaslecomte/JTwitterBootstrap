@@ -104,6 +104,7 @@ $app = JFactory::getApplication();
         <div class="span9">
 			<jdoc:include type="modules" name="ads" style="none" />
 		</div>
+        <?php endif; ?>
         
 	</div>
 
